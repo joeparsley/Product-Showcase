@@ -17,6 +17,8 @@ body{
   background-color: black;
   color: white;
   position: relative;
+  border: 2px solid white;
+  height: 100vh;
 }
 
 a:hover {
@@ -35,15 +37,15 @@ a:hover {
 
 .header {
   display: inline-block;
-  /*border: 3px solid red;*/
+  border: 3px solid red;
   margin: 0;
-  position: absolute;
-  top: 90%;
+  position: relative;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
   height: 250px;
-  width: 80%
+  width: 80%;
+  margin-top: 7%;
 }
 
 .header h1 {
@@ -80,13 +82,51 @@ a:hover {
 
 
 
-
 .content {
-  /*border: 3px solid green;*/
+  border: 3px solid green;
+  /*padding-top: 1%;*/
+  position: relative;
+  width: 80%;
+  margin: 0 10%;
+  font-size: 14px;
+  line-height: 20px;
+  height: 50%;
 }
 
-#beholder1 {
+.wizard-container {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  left: 50%;
 
+  border: 3px solid blue;
+}
+
+#wizard {
+  height: 100%;
+  width: 50%;
+  /*position: absolute;
+  left: 37%;
+  bottom: 20%;*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+#sword2 {
+  height: 60%;
+  width: 20%;
+  position: absolute;
+  left: 20%;
+  top: 30%;
+}
+
+#sword {
+  height: 60%;
+  width: 20%;
+  position: absolute;
+  right: 20%;
+  top: 30%;
 }
 
 
