@@ -92,12 +92,30 @@ a:hover {
   height: 50%;
 }
 
+.info-container {
+  width: 20%;
+  /*border: 2px solid yellow;*/
+  font-family: 'Metamorphous', cursive;
+  text-shadow: 4px 4px 6px black;
+  font-size: 11px;
+  position: absolute;
+  left: 40%;
+
+}
+
+.info-container p {
+  font-family: 'Metamorphous', cursive;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 5px 5px;
+}
+
 .wizard-container {
   height: 100%;
   width: 50%;
   position: absolute;
   left: 50%;
-  border: 3px solid blue;
+  /*border: 3px solid blue;*/
 }
 
 .wizard-container p {
