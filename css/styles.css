@@ -16,7 +16,7 @@ body{
   background-size: auto;
   color: white;
   position: relative;
-  border: 2px solid white;
+  /*border: 2px solid white;*/
   height: 100vh;
 }
 
@@ -159,7 +159,7 @@ table {
 }
 
 .order-now {
-    /*border: 3px solid blue;*/
+
     width: 20%;
     height: 50%;
     position: absolute;
@@ -167,7 +167,7 @@ table {
     bottom: 20%;
     display: block;
    margin-left: auto;
-   margin-right: auto
+   margin-right: auto;
    font-family: 'Metamorphous', cursive;
 }
 .order-now img {
@@ -178,9 +178,9 @@ table {
 }
 
 input, textarea {
-  background   : rgba(0,0,0,.1);
+  background: rgba(0,0,0,.1);
   border-radius: 5px;
-  outline      : none;
+  outline: none;
   color: white;
   font-family: 'Metamorphous', cursive;
   text-align: center;
@@ -192,11 +192,40 @@ input, textarea {
   top: 50%;
 }
 
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer {
+  position: absolute;
+  border: 8px solid yellow;
+  top: 80%;
+
+}
+.gallery {
+  float: left;
+  /*border: 3px solid blue;*/
+  position: absolute;
+  width: 80%;
+  top: 100%;
+  left: 10%;
+}
+
+.gallery img {
+  width: 10%;
+  height: 20%;
+  display: inline-block;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+
 #orderNow {
   position: absolute;
   right: 5%;
   bottom: 20%;
-    font-family: 'Metamorphous', cursive;
+  font-family: 'Metamorphous', cursive;
 }
 
 #wizard {
@@ -207,7 +236,7 @@ input, textarea {
   bottom: 20%;*/
   display: block;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
 }
 
 #sword2 {
@@ -271,4 +300,38 @@ input, textarea {
   animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+}
+
+
+/* Pulse Grow */
+@-webkit-keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+@keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+.hvr-pulse-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
+  -webkit-animation-name: hvr-pulse-grow;
+  animation-name: hvr-pulse-grow;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
 }
