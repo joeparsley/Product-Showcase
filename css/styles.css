@@ -14,7 +14,6 @@ body{
   background-image: url(../img/background-3.png);
   background-repeat: repeat;
   background-size: auto;
-  /*background-color: black;*/
   color: white;
   position: relative;
   border: 2px solid white;
@@ -26,8 +25,8 @@ a:hover {
 }
 
 .beholder {
-  height: 60%;
-  width: 10%;
+  height: 75%;
+  width: 15%;
   position: absolute;
   top: 40%;
   left: 50%;
@@ -60,7 +59,7 @@ a:hover {
   margin-right: -50%;
   transform: translate(-50%, -50%);
   letter-spacing: 4px;
-  text-shadow: 2px 2px 4px red;
+  text-shadow: 4px 4px 6px black;
   font-size: 48px;
 }
 
@@ -98,8 +97,19 @@ a:hover {
   width: 50%;
   position: absolute;
   left: 50%;
-
   border: 3px solid blue;
+}
+
+.wizard-container p {
+  position: absolute;
+  right: 10px;
+  top: 10%;
+  font-family: 'Metamorphous', cursive;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 5px 5px;
+  margin-top: 2;
+  border-radius: 10px;
+  font-size: 100%;
 }
 
 #wizard {
