@@ -24,6 +24,27 @@ a:hover {
   text-decoration: underline;
 }
 
+table {
+  font-family: 'Metamorphous', cursive;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 5px 5px;
+  border: 4px outset darkgray;
+  padding: 20px 20px;
+  color: 	#ff003f;
+  text-shadow: 4px 4px 6px black;
+}
+
+ th {
+   font-size: 20px;
+ }
+ td {
+  border: 2px outset darkgray;
+  padding: 15px 15px;
+  color: 	#ff003f;
+  text-shadow: 4px 4px 6px black;
+}
+
 .beholder {
   height: 75%;
   width: 15%;
@@ -82,7 +103,7 @@ a:hover {
 
 
 .content {
-  border: 3px solid green;
+  /*border: 3px solid green;*/
   /*padding-top: 1%;*/
   position: relative;
   width: 80%;
@@ -97,9 +118,9 @@ a:hover {
   /*border: 2px solid yellow;*/
   font-family: 'Metamorphous', cursive;
   text-shadow: 4px 4px 6px black;
-  font-size: 11px;
+  font-size: 14px;
   position: absolute;
-  left: 40%;
+  left: 5%;
 
 }
 
@@ -108,6 +129,13 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   padding: 5px 5px;
+}
+
+.table-container {
+  /*border: 2px solid red;*/
+  width: 20%;
+  position: absolute;
+  left: 30%;
 }
 
 .wizard-container {
@@ -128,6 +156,47 @@ a:hover {
   margin-top: 2;
   border-radius: 10px;
   font-size: 100%;
+}
+
+.order-now {
+    /*border: 3px solid blue;*/
+    width: 20%;
+    height: 50%;
+    position: absolute;
+    left: 47%;
+    bottom: 20%;
+    display: block;
+   margin-left: auto;
+   margin-right: auto
+   font-family: 'Metamorphous', cursive;
+}
+.order-now img {
+ width: 20%;
+ position: absolute;
+ right: 5%;
+ top: 40%;
+}
+
+input, textarea {
+  background   : rgba(0,0,0,.1);
+  border-radius: 5px;
+  outline      : none;
+  color: white;
+  font-family: 'Metamorphous', cursive;
+  text-align: center;
+}
+
+.order-now p {
+  position: absolute;
+  font-family: 'Metamorphous', cursive;
+  top: 50%;
+}
+
+#orderNow {
+  position: absolute;
+  right: 5%;
+  bottom: 20%;
+    font-family: 'Metamorphous', cursive;
 }
 
 #wizard {
